@@ -175,23 +175,19 @@ The formal benchmark is written in \[ZPMRTH\].
 operation   | i7 2600|Xeon X5650|Haswell|Haswell with mulx
 ------------|--------|----------|-------|-----------------
 TurboBoost  |on      |on        |off    |off
-            |        |          |       |
 mu          | 50     |60        |42     |38
 r           | 80     |98        |69     |65
 Fp:mul      |124     |146       |98     |90
 Fp2:mul     |360     |412       |       |
 Fp2:square  |288     |335       |       |
-            |        |          |       |
 G1::double  |1150    |1300      |       |
 G1::add     |2200    |2600      |       |
 G2::double  |2500    |2900      |       |
 G2::add     |5650    |6500      |       |
 Fp12::square|4500    |5150      |       |
 Fp12::mul   |6150    |7000      |       |
-            |        |          |       |
 Miller loop |0.83M   |0.97M     |0.82M  |0.71M
 final_exp   |0.53M   |0.63M     |0.51M  |0.46M
-            |        |          |       |
 pairing     |1.36M   |1.60M     |1.33M  |1.17M
 
 
